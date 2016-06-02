@@ -16,6 +16,7 @@ mkDerivation {
   src = ./.;
   isLibrary = true;
   isExecutable = true;
+  doCheck = false;
   libraryHaskellDepends = [
     aeson array base base64-bytestring binary blaze-html blaze-markup
     bytestring cmark containers data-default deepseq directory
